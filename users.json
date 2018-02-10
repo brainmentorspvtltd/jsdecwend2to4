@@ -1,0 +1,12 @@
+class UserA{
+constructor(userid, pwd){
+this.userid = userid;
+this.password = pwd;
+}
+}
+
+var obj = new UserA("Ram",123);
+
+var arr = [obj];
+
+JSON.stringify(arr);
